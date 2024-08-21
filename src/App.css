@@ -26,7 +26,6 @@
 .qr-background{
   background-image: url('./assets/qrbackground.png');
   width:80%;
-  height:80vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
