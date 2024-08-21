@@ -119,7 +119,7 @@ const GenerateQr = () => {
                 </div>
                 <div className='text-center'>
 
-                <button className='mt-4 text-center bg-gradient-to-r from-orange-500 to-red-600 text-white py-2 px-4 rounded'>Generate QR Code</button>
+                <button className='mt-4 text-center bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white py-2 px-4 rounded'>Generate QR Code</button>
                 </div>
             </div>
         </form>

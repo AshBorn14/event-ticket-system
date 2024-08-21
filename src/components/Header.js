@@ -2,6 +2,7 @@ import React from 'react'
 import { IoQrCode } from "react-icons/io5";
 import { Link, NavLink } from "react-router-dom"
 import sitelogo from "../assets/sitelogo.png"
+import tickettaplogo from "../assets/tickettaplogo.png"
 import { navigation } from '../constants/Navigation';
 
 
@@ -10,7 +11,7 @@ const Header = () => {
     <header className="fixed top-0 w-full h-16 bg-black bg-opacity-50 z-40">
         <div className='container mx-auto px-3 flex items-center h-full'>
             <Link to={"/"}>
-                <img src={sitelogo}
+                <img src={tickettaplogo}
                     alt='logo'
                     width={160}
                     />
