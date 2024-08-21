@@ -1,16 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Jersey+10&display=swap');
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.font-fam{
+  font-family: "Abril Fatface", sans-serif;
 }
 
 .App-header {
@@ -28,11 +23,13 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.qr-background{
+  background-image: url('./assets/qrbackground.png');
+  width:80%;
+  height:80vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
